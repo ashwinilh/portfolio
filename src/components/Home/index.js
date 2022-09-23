@@ -1,41 +1,21 @@
-import { Container, Row, Col } from "react-bootstrap";
-//import homeLogo from "../../Assets/background.jpg";
 
 function Home() {
   return (
-    <section>
-      <Container fluid className="home-section" id="home">
-        <Container className="home-content">
-          <Row>
-            <Col md={7} className="home-header">
-              <h1 style={{ paddingBottom: 15 }} className="heading">
-                Hi There!{" "}
-                <span className="wave" role="img" aria-labelledby="wave">
-                  👋🏻
-                </span>
-              </h1>
-
-              <h1 className="heading-name">
-                I'M
-                <strong className="main-name"> Ashwini</strong>
-              </h1>
-
-              <div style={{ padding: 50, textAlign: "left" }}>
-              </div>
-            </Col>
-
-            <Col md={5} style={{ paddingBottom: 20 }}>
-             {/*  <img
-                src={homeLogo}
-                alt="home pic"
-                className="img-fluid"
-                style={{ maxHeight: "450px" }}
-              /> */}
-            </Col>
-          </Row>
-        </Container>
-      </Container>
-    </section>
+    <div className= "text-center home-section justify-content-center text-white">
+        <h1 className="home-name">I'm Ashwini Lalitha Huchahanumegowda</h1>
+        <p className="home-description">Full Stack Web Developer</p>
+        <div className ='container mb-3 mt-4' >
+            <a href="https://github.com/ashwinilh" className="btn tooltip-test icon" title="Github" target="_blank" rel="noopener noreferrer"
+                style={{fontSize:25, color:'#E8E8E8', marginRight:10}}><i className="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/ashwinilh12/" className="btn tooltip-test icon" title="Linkedin"
+                target="_blank" rel="noopener noreferrer" style={{fontSize:25,color:'#E8E8E8',marginRight:10}}><i className="fab fa-linkedin"></i></a>
+            <a href="mailto: ashwini.lh12@gmail.com" className="btn tooltip-test icon" title="Email" target="_blank" rel="noopener noreferrer"
+                style={{fontSize:25, color:'#E8E8E8', marginRight:10}}><i className="fas fa-envelope"></i></a>
+        </div>
+        <p className="scrolldown">
+          <a href="#about"><i className="fas fa-angle-down"></i></a>
+        </p>
+      </div>  
   );
 }
 
