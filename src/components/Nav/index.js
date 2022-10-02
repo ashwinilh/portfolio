@@ -12,12 +12,12 @@ function Nav() {
               </li>
               <li className="nav-item" >
                 <a className="nav-link" href="#about" style={{ color: 'white' }}>
-                  About
+                  About Me
                 </a>
               </li>
               <li className="nav-item" >
                 <a className="nav-link" href="#portfolio" style={{ color: 'white' }}>
-                  Portfolio
+                  Projects
                 </a>
               </li>
             </ul>
