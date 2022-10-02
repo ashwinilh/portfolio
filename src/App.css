@@ -67,3 +67,33 @@ a.nav-link:hover{
 }
 
 .home-section .scrolldown a:hover { background-color: #11ABB0; }
+
+#about{
+  background: linear-gradient(45deg, #d6db6b 30%, #db8c6b 90%) no-repeat;
+}
+
+/* Profile image */
+.profile-img{
+  width: 240px;
+  margin: 0 auto;
+  display: block;
+  clip-path: circle(120px at center);
+}
+
+.heading{
+  /* background: -webkit-linear-gradient(#3a444e, #d84e4e); */
+  background: -webkit-linear-gradient(#5759F5, #711a8c);
+  background-clip: border-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.modelHeading{
+  /* background: -webkit-linear-gradient(#3a444e, #d84e4e); */
+  background: -webkit-linear-gradient(#575a60, #9d37bb);
+  background-clip: border-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
