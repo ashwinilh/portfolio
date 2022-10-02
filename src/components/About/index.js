@@ -21,8 +21,7 @@ export default function About() {
 							</div>
 						</div>
 
-						<div
-							className="col-md-9 col-sm-12" style={{ margin: '0 auto', padding: '0 25px'}}	>
+						<div className="col-md-9 col-sm-12" style={{ margin: '0 auto', padding: '0 25px'}}	>
 							<p style={{ margin: '20px 10px 0 10px', textAlign: 'justify', fontSize: '1.1em', color:'	#282828' }}>
 								Passionate full stack web developer 								
 							</p>
