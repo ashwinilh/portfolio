@@ -23,11 +23,10 @@ export default function About() {
 
 						<div className="col-md-9 col-sm-12" style={{ margin: '0 auto', padding: '0 25px'}}	>
 							<p style={{ margin: '20px 10px 0 10px', textAlign: 'justify', fontSize: '1.1em', color:'	#282828' }}>
-								Passionate full stack web developer 								
+								Passionate full stack web developer Ashwini update about me section								
 							</p>
-							<p
-								style={{ margin: '20px 10px 0px 10px', textAlign: 'justify', fontSize: '1.1em', color:'	#282828'}}>
-								
+							<p style={{ margin: '20px 10px 0px 10px', textAlign: 'justify', fontSize: '1.1em', color:'	#282828'}}>
+								Ashwini update about me section
 							</p>
 							<p style={{ margin: '20px 10px 0px 10px', textAlign: 'justify', fontSize: '1.1em', color:'	#282828' }}	>
 								<strong>Contact Email: ashwini.lh12@gmail.com </strong>
