@@ -68,7 +68,46 @@ a.nav-link:hover{
 
 .home-section .scrolldown a:hover { background-color: #11ABB0; }
 
+.wave {
+  animation-name: wave-animation; 
+  animation-duration: 2.1s; 
+  animation-iteration-count: infinite; 
+  transform-origin: 70% 70%; 
+  display: inline-block;
+}
+
+@keyframes wave-animation {
+  0% {
+    transform: rotate(0deg);
+  }
+  10% {
+    transform: rotate(14deg);
+  } /* The following five values can be played with to make the waving more or less extreme */
+  20% {
+    transform: rotate(-8deg);
+  }
+  30% {
+    transform: rotate(14deg);
+  }
+  40% {
+    transform: rotate(-4deg);
+  }
+  50% {
+    transform: rotate(10deg);
+  }
+  60% {
+    transform: rotate(0deg);
+  } /* Reset for the last half to pause */
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
 #about{
+  background: linear-gradient(45deg, #d6db6b 30%, #db8c6b 90%) no-repeat;
+}
+
+#projects{
   background: linear-gradient(45deg, #d6db6b 30%, #db8c6b 90%) no-repeat;
 }
 
@@ -81,16 +120,13 @@ a.nav-link:hover{
 }
 
 .heading{
-  /* background: -webkit-linear-gradient(#3a444e, #d84e4e); */
   background: -webkit-linear-gradient(#5784f5, #40a8bdc7);
   background-clip: border-box;
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .modelHeading{
-  /* background: -webkit-linear-gradient(#3a444e, #d84e4e); */
   background: -webkit-linear-gradient(#575a60, #9d37bb);
   background-clip: border-box;
   -webkit-background-clip: text;
@@ -107,7 +143,6 @@ a.nav-link:hover{
 /* Footer */
 footer{
   position: relative;
-  /* background : Radial-gradient(ellipse at bottom,#011968,#0e0512); */
   background: linear-gradient(0deg, #010f3e 2%, #0e0512 90%) no-repeat;
   color: #9dc6d8;
 }
@@ -160,7 +195,22 @@ footer{
   
 }
 
+.tech-icons {
+  margin: 15px;
+  padding: 10px;
+  opacity: 0.93;
+  border: 1.7px solid rgba(200, 137, 230, 0.637);
+  vertical-align: middle;
+  text-align: center;
+  border-radius: 5px;
+  display: table;
+  box-shadow: 4px 5px 4px 3px rgba(89, 4, 168, 0.137);
+  overflow: hidden;
+  transition: all 0.4s ease 0s;
+  width:100px;
+  height: 50px;
 
+}
 
 
 /* Small Devices */
