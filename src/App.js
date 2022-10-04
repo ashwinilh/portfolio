@@ -5,6 +5,7 @@ import Nav from './components/Nav';
 import About from './components/About';
 import Footer from './components/Footer';
 import Projects from './components/Projects';
+import TechStack from './components/TechStack';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Home></Home>
         {/* <Switch> */}
         <About></About>
+        <TechStack></TechStack>
         <Projects></Projects>
         {/* </Switch> */}
         <Footer></Footer>
